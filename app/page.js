@@ -128,7 +128,7 @@ export default function Home() {
                 Shop Now
               </a>
               <a
-                href="#"
+                href="/learn-more"
                 className="text-sm font-semibold leading-6 text-gray-900"
               >
                 Learn more →
