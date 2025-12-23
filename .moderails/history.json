@@ -21,6 +21,16 @@
         "app/layout.js"
       ],
       "completed_at": "2025-12-23T12:07:11.359618"
+    },
+    {
+      "name": "product-page-improvements",
+      "epic": "ui-improvements",
+      "summary": "Updated product page button colors: changed 'Add to Cart' button from indigo to orange to match site theme, and changed heart/wishlist icon hover color to red. Changes work in both light and dark modes.",
+      "git_hash": "6c1d39f59f5aa6bd9eecd4869208258a6baa1521",
+      "files_changed": [
+        "app/products/[id]/page.js"
+      ],
+      "completed_at": "2025-12-23T15:22:09.090172"
     }
   ]
 }
