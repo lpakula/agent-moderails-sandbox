@@ -10,6 +10,17 @@
         "app/layout.js"
       ],
       "completed_at": "2025-12-23T11:44:14.226180"
+    },
+    {
+      "name": "home-page-menu",
+      "epic": "ui-improvements",
+      "summary": "Added responsive navigation menu with hamburger toggle for mobile, horizontal menu for desktop, dark mode support, and links to Home, Products, Learn More, and Contact. Store logo is now clickable home link.",
+      "git_hash": "dfa88f8fd18a9c64a4eae2aeb900278ecf6afaeb",
+      "files_changed": [
+        "app/components/Navigation.js",
+        "app/layout.js"
+      ],
+      "completed_at": "2025-12-23T12:07:11.359618"
     }
   ]
 }
