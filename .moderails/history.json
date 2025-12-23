@@ -2,35 +2,17 @@
   "version": "1.0",
   "tasks": [
     {
-      "name": "footer-lorem-ipsum",
-      "epic": null,
-      "summary": "Added footer component to app/layout.js with lorem ipsum placeholder text. Footer appears on all pages with dark mode support and consistent styling matching the existing design system.",
-      "git_hash": "35354602fb7aefc4e9b793754bf780733dea3530",
+      "task_id": "qf10zi",
+      "name": "add-people-recommendations-carousel",
+      "epic": "ui-features",
+      "summary": "Added people recommendations carousel before footer with auto-rotating slides (5s interval), 8 mock profiles using UI Avatars, responsive design showing 1 person on mobile and 3 on desktop, prev/next navigation arrows (desktop only), dot indicators, pause on hover, full dark mode support, and matching orange/amber theme",
+      "git_hash": "31f1025406c739305c8a60869ccf5fb3d8834e67",
       "files_changed": [
+        "app/components/PeopleCarousel.js",
+        "app/data/people.js",
         "app/layout.js"
       ],
-      "completed_at": "2025-12-23T11:44:14.226180"
-    },
-    {
-      "name": "home-page-menu",
-      "epic": "ui-improvements",
-      "summary": "Added responsive navigation menu with hamburger toggle for mobile, horizontal menu for desktop, dark mode support, and links to Home, Products, Learn More, and Contact. Store logo is now clickable home link.",
-      "git_hash": "dfa88f8fd18a9c64a4eae2aeb900278ecf6afaeb",
-      "files_changed": [
-        "app/components/Navigation.js",
-        "app/layout.js"
-      ],
-      "completed_at": "2025-12-23T12:07:11.359618"
-    },
-    {
-      "name": "product-page-improvements",
-      "epic": "ui-improvements",
-      "summary": "Updated product page button colors: changed 'Add to Cart' button from indigo to orange to match site theme, and changed heart/wishlist icon hover color to red. Changes work in both light and dark modes.",
-      "git_hash": "6c1d39f59f5aa6bd9eecd4869208258a6baa1521",
-      "files_changed": [
-        "app/products/[id]/page.js"
-      ],
-      "completed_at": "2025-12-23T15:22:09.090172"
+      "completed_at": "2025-12-23T15:55:18.986891"
     }
   ]
 }
