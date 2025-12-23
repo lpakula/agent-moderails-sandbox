@@ -2,6 +2,7 @@ import './globals.css'
 import Link from 'next/link'
 import ThemeToggle from './components/ThemeToggle'
 import Navigation from './components/Navigation'
+import PeopleCarousel from './components/PeopleCarousel'
 
 export default function RootLayout({ children }) {
   return (
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
           </div>
         </header>
         {children}
+        <PeopleCarousel />
         <footer className="bg-gray-50 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-800 py-12 px-6">
           <div className="mx-auto max-w-7xl">
             <p className="text-gray-700 dark:text-gray-300 mb-4">
