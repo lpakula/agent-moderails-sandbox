@@ -29,7 +29,7 @@
     {
       "id": "7qrn7e",
       "name": "Create blog page",
-      "epic": "Content Pages",
+      "epic": "content-pages",
       "summary": "Created blog listing page at /blog with 6 sample posts, added Blog links to navigation and footer, implemented responsive grid layout with dark mode support",
       "git_hash": "e738152",
       "files_changed": [
@@ -39,6 +39,19 @@
         "app/components/Navigation.js"
       ],
       "completed_at": "2025-12-23T16:55:14.186282"
+    },
+    {
+      "id": "4r7ctq",
+      "name": "create-faq-page",
+      "epic": "content-pages",
+      "summary": "Created FAQ page at /faq with 8 questions covering shipping, returns, payments, and order management. Implemented accordion-style interface with expand/collapse functionality, dark mode support, and updated footer link.",
+      "git_hash": "820c92d",
+      "files_changed": [
+        "app/components/Footer.js",
+        "app/faq/data.js",
+        "app/faq/page.js"
+      ],
+      "completed_at": "2025-12-23T17:05:20.621973"
     }
   ]
 }

@@ -27,7 +27,7 @@ export default function Footer() {
   ]
 
   const supportLinks = [
-    { label: 'FAQ', href: '#' },
+    { label: 'FAQ', href: '/faq' },
     { label: 'Shipping', href: '#' },
     { label: 'Returns', href: '#' },
     { label: 'Contact', href: '#' },
