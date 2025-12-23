@@ -1,6 +1,0 @@
-# moderails database
-*.db
-*.db-journal
-
-# Task files (not committed)
-tasks/
