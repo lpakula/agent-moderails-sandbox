@@ -22,6 +22,16 @@ export default function RootLayout({ children }) {
           </div>
         </header>
         {children}
+        <footer className="bg-gray-50 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-800 py-12 px-6">
+          <div className="mx-auto max-w-7xl">
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p className="text-gray-700 dark:text-gray-300">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </footer>
       </body>
     </html>
   )
