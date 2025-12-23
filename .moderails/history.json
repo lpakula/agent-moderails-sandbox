@@ -2,17 +2,16 @@
   "version": "1.0",
   "tasks": [
     {
-      "task_id": "qf10zi",
-      "name": "add-people-recommendations-carousel",
-      "epic": "ui-features",
-      "summary": "Added people recommendations carousel before footer with auto-rotating slides (5s interval), 8 mock profiles using UI Avatars, responsive design showing 1 person on mobile and 3 on desktop, prev/next navigation arrows (desktop only), dot indicators, pause on hover, full dark mode support, and matching orange/amber theme",
-      "git_hash": "31f1025406c739305c8a60869ccf5fb3d8834e67",
+      "id": "5nypix",
+      "name": "Create about page and fix footer link",
+      "epic": null,
+      "summary": "Created minimal about page with lorem ipsum content and fixed footer About link to point to /about route",
+      "git_hash": "403cd3dbef5c0b4e89c36535b763d623f990c58e",
       "files_changed": [
-        "app/components/PeopleCarousel.js",
-        "app/data/people.js",
-        "app/layout.js"
+        "app/about/page.js",
+        "app/components/Footer.js"
       ],
-      "completed_at": "2025-12-23T15:55:18.986891"
+      "completed_at": "2025-12-23T16:21:43.269142"
     }
   ]
 }
