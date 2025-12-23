@@ -9,6 +9,7 @@ export default function Navigation() {
   const menuItems = [
     { label: 'Home', href: '/' },
     { label: 'Products', href: '/#products' },
+    { label: 'Blog', href: '/blog' },
     { label: 'Learn More', href: '/learn-more' },
     { label: 'Contact', href: '#' },
   ]

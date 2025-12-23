@@ -12,6 +12,33 @@
         "app/components/Footer.js"
       ],
       "completed_at": "2025-12-23T16:21:43.269142"
+    },
+    {
+      "id": "ewi1t0",
+      "name": "create-careers-page",
+      "epic": "footer",
+      "summary": "Created careers page at /careers with 6 sample job listings. Added jobs data file and updated Footer link. Includes department, type, location info and apply buttons with mailto links.",
+      "git_hash": "62c2f3e",
+      "files_changed": [
+        "app/careers/data.js",
+        "app/careers/page.js",
+        "app/components/Footer.js"
+      ],
+      "completed_at": "2025-12-23T16:32:26.027874"
+    },
+    {
+      "id": "7qrn7e",
+      "name": "Create blog page",
+      "epic": "Content Pages",
+      "summary": "Created blog listing page at /blog with 6 sample posts, added Blog links to navigation and footer, implemented responsive grid layout with dark mode support",
+      "git_hash": "e738152",
+      "files_changed": [
+        "app/blog/data.js",
+        "app/blog/page.js",
+        "app/components/Footer.js",
+        "app/components/Navigation.js"
+      ],
+      "completed_at": "2025-12-23T16:55:14.186282"
     }
   ]
 }
