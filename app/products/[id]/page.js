@@ -105,10 +105,10 @@ export default function ProductDetail({ params }) {
 
               {/* Add to Cart */}
               <div className="flex gap-4">
-                <button className="flex-1 bg-indigo-600 dark:bg-indigo-500 text-white py-4 px-8 rounded-full font-semibold text-lg hover:bg-indigo-700 dark:hover:bg-indigo-600 transition-all hover:scale-105 shadow-lg">
+                <button className="flex-1 bg-orange-600 dark:bg-orange-500 text-white py-4 px-8 rounded-full font-semibold text-lg hover:bg-orange-700 dark:hover:bg-orange-600 transition-all hover:scale-105 shadow-lg">
                   Add to Cart
                 </button>
-                <button className="p-4 border-2 border-gray-300 dark:border-gray-600 rounded-full hover:border-indigo-600 dark:hover:border-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors text-gray-700 dark:text-gray-300">
+                <button className="p-4 border-2 border-gray-300 dark:border-gray-600 rounded-full hover:border-red-500 dark:hover:border-red-400 hover:text-red-500 dark:hover:text-red-400 transition-colors text-gray-700 dark:text-gray-300">
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                   </svg>
