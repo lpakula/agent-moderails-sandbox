@@ -1,0 +1,121 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Store" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "Home" [ref=e8] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e9]:
+            - link "Products" [ref=e10] [cursor=pointer]:
+              - /url: /#products
+          - listitem [ref=e11]:
+            - link "Pricing" [ref=e12] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e13]:
+            - link "Blog" [ref=e14] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e15]:
+            - link "Learn More" [ref=e16] [cursor=pointer]:
+              - /url: /learn-more
+          - listitem [ref=e17]:
+            - link "Contact" [ref=e18] [cursor=pointer]:
+              - /url: /contact
+      - button "Toggle theme" [ref=e19] [cursor=pointer]:
+        - img [ref=e20]
+  - main [ref=e22]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]: Get In Touch
+        - heading "Contact Us" [level=1] [ref=e27]
+        - paragraph [ref=e28]: Have a question, feedback, or just want to say hello? Fill out the form below and we'll get back to you as soon as possible.
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Name
+            - textbox "Name" [ref=e34]:
+              - /placeholder: Your name
+          - generic [ref=e35]:
+            - generic [ref=e36]: Email
+            - textbox "Email" [ref=e37]:
+              - /placeholder: you@example.com
+        - generic [ref=e38]:
+          - generic [ref=e39]: Subject
+          - textbox "Subject" [ref=e40]:
+            - /placeholder: What is this about?
+        - generic [ref=e41]:
+          - generic [ref=e42]: Message
+          - textbox "Message" [ref=e43]:
+            - /placeholder: Tell us more...
+        - button "Send Message" [ref=e44] [cursor=pointer]
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - img [ref=e48]
+          - heading "Email" [level=3] [ref=e50]
+          - paragraph [ref=e51]: hello@store.com
+        - generic [ref=e52]:
+          - img [ref=e54]
+          - heading "Phone" [level=3] [ref=e56]
+          - paragraph [ref=e57]: +1 (555) 123-4567
+        - generic [ref=e58]:
+          - img [ref=e60]
+          - heading "Office" [level=3] [ref=e63]
+          - paragraph [ref=e64]: 123 Main St, City
+  - generic [ref=e66]:
+    - generic [ref=e67]:
+      - heading "Recommended People" [level=2] [ref=e68]
+      - paragraph [ref=e69]: Connect with talented professionals in our community
+    - generic [ref=e70]:
+      - generic [ref=e72]:
+        - generic [ref=e74]:
+          - img "Sarah Johnson" [ref=e75]
+          - heading "Sarah Johnson" [level=3] [ref=e76]
+          - paragraph [ref=e77]: Product Designer
+        - generic [ref=e79]:
+          - img "Michael Chen" [ref=e80]
+          - heading "Michael Chen" [level=3] [ref=e81]
+          - paragraph [ref=e82]: Software Engineer
+        - generic [ref=e84]:
+          - img "Emily Rodriguez" [ref=e85]
+          - heading "Emily Rodriguez" [level=3] [ref=e86]
+          - paragraph [ref=e87]: Marketing Director
+        - generic [ref=e89]:
+          - img "David Kim" [ref=e90]
+          - heading "David Kim" [level=3] [ref=e91]
+          - paragraph [ref=e92]: Data Scientist
+        - generic [ref=e94]:
+          - img "Jessica Taylor" [ref=e95]
+          - heading "Jessica Taylor" [level=3] [ref=e96]
+          - paragraph [ref=e97]: UX Researcher
+        - generic [ref=e99]:
+          - img "Alex Martinez" [ref=e100]
+          - heading "Alex Martinez" [level=3] [ref=e101]
+          - paragraph [ref=e102]: Frontend Developer
+        - generic [ref=e104]:
+          - img "Olivia Brown" [ref=e105]
+          - heading "Olivia Brown" [level=3] [ref=e106]
+          - paragraph [ref=e107]: Business Analyst
+        - generic [ref=e109]:
+          - img "James Wilson" [ref=e110]
+          - heading "James Wilson" [level=3] [ref=e111]
+          - paragraph [ref=e112]: DevOps Engineer
+      - button "Previous" [ref=e113] [cursor=pointer]:
+        - img [ref=e114]
+      - button "Next" [ref=e116] [cursor=pointer]:
+        - img [ref=e117]
+    - generic [ref=e119]:
+      - button "Go to slide 1" [ref=e120] [cursor=pointer]
+      - button "Go to slide 2" [ref=e121] [cursor=pointer]
+      - button "Go to slide 3" [ref=e122] [cursor=pointer]
+      - button "Go to slide 4" [ref=e123] [cursor=pointer]
+      - button "Go to slide 5" [ref=e124] [cursor=pointer]
+      - button "Go to slide 6" [ref=e125] [cursor=pointer]
+      - button "Go to slide 7" [ref=e126] [cursor=pointer]
+      - button "Go to slide 8" [ref=e127] [cursor=pointer]
+  - contentinfo [ref=e128]:
+    - generic [ref=e129]:
+      - paragraph [ref=e130]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      - paragraph [ref=e131]: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - alert [ref=e132]
