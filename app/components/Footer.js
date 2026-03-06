@@ -30,7 +30,7 @@ export default function Footer() {
     { label: 'FAQ', href: '/faq' },
     { label: 'Shipping', href: '#' },
     { label: 'Returns', href: '#' },
-    { label: 'Contact', href: '#' },
+    { label: 'Contact', href: '/contact' },
   ]
 
   const legalLinks = [
