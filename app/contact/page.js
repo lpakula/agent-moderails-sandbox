@@ -85,7 +85,7 @@ export default function Contact() {
 
               <button
                 type="button"
-                className="rounded-full bg-orange-600 dark:bg-orange-500 px-8 py-3 text-base font-semibold text-white shadow-lg hover:bg-orange-700 dark:hover:bg-orange-600 transition-all hover:scale-105"
+                className="rounded-full bg-green-600 dark:bg-green-500 px-8 py-3 text-base font-semibold text-white shadow-lg hover:bg-green-700 dark:hover:bg-green-600 transition-all hover:scale-105"
               >
                 Send Message
               </button>
