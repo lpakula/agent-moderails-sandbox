@@ -39,6 +39,75 @@ export default function Contact() {
       <section className="py-16 px-6 sm:py-24">
         <div className="mx-auto max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
+            {/* Map + Contact Info */}
+            <div className="space-y-8">
+              <div>
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">
+                  Our Location
+                </h2>
+                <div className="rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-700 shadow-lg">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0977735271756!2d-122.39997368468156!3d37.79098797975571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085806285ddb1a3%3A0xad0d8e41b5e7ce54!2sEmbarcadero%20Center!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+                    width="100%"
+                    height="350"
+                    style={{ border: 0 }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Our office location"
+                    className="w-full"
+                  />
+                </div>
+              </div>
+
+              {/* Contact Details */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div className="rounded-2xl bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-6">
+                  <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-orange-100 dark:bg-orange-900/50 text-orange-600 dark:text-orange-400 mb-3 text-lg">
+                    📍
+                  </div>
+                  <h3 className="text-sm font-semibold text-gray-900 dark:text-white mb-1">Address</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">
+                    123 Market Street<br />
+                    San Francisco, CA 94105
+                  </p>
+                </div>
+
+                <div className="rounded-2xl bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-6">
+                  <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-orange-100 dark:bg-orange-900/50 text-orange-600 dark:text-orange-400 mb-3 text-lg">
+                    📧
+                  </div>
+                  <h3 className="text-sm font-semibold text-gray-900 dark:text-white mb-1">Email</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">
+                    hello@store.com<br />
+                    support@store.com
+                  </p>
+                </div>
+
+                <div className="rounded-2xl bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-6">
+                  <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-orange-100 dark:bg-orange-900/50 text-orange-600 dark:text-orange-400 mb-3 text-lg">
+                    📞
+                  </div>
+                  <h3 className="text-sm font-semibold text-gray-900 dark:text-white mb-1">Phone</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">
+                    +1 (555) 123-4567<br />
+                    Mon–Fri, 9am–6pm PST
+                  </p>
+                </div>
+
+                <div className="rounded-2xl bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-6">
+                  <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-orange-100 dark:bg-orange-900/50 text-orange-600 dark:text-orange-400 mb-3 text-lg">
+                    💬
+                  </div>
+                  <h3 className="text-sm font-semibold text-gray-900 dark:text-white mb-1">Live Chat</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">
+                    Available 24/7<br />
+                    Avg. response: 2 min
+                  </p>
+                </div>
+              </div>
+            </div>
+
             {/* Form */}
             <div>
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">
@@ -141,75 +210,6 @@ export default function Contact() {
                   </button>
                 </form>
               )}
-            </div>
-
-            {/* Map + Contact Info */}
-            <div className="space-y-8">
-              <div>
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">
-                  Our Location
-                </h2>
-                <div className="rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-700 shadow-lg">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0977735271756!2d-122.39997368468156!3d37.79098797975571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085806285ddb1a3%3A0xad0d8e41b5e7ce54!2sEmbarcadero%20Center!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
-                    width="100%"
-                    height="350"
-                    style={{ border: 0 }}
-                    allowFullScreen=""
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="Our office location"
-                    className="w-full"
-                  />
-                </div>
-              </div>
-
-              {/* Contact Details */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div className="rounded-2xl bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-6">
-                  <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-orange-100 dark:bg-orange-900/50 text-orange-600 dark:text-orange-400 mb-3 text-lg">
-                    📍
-                  </div>
-                  <h3 className="text-sm font-semibold text-gray-900 dark:text-white mb-1">Address</h3>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">
-                    123 Market Street<br />
-                    San Francisco, CA 94105
-                  </p>
-                </div>
-
-                <div className="rounded-2xl bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-6">
-                  <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-orange-100 dark:bg-orange-900/50 text-orange-600 dark:text-orange-400 mb-3 text-lg">
-                    📧
-                  </div>
-                  <h3 className="text-sm font-semibold text-gray-900 dark:text-white mb-1">Email</h3>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">
-                    hello@store.com<br />
-                    support@store.com
-                  </p>
-                </div>
-
-                <div className="rounded-2xl bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-6">
-                  <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-orange-100 dark:bg-orange-900/50 text-orange-600 dark:text-orange-400 mb-3 text-lg">
-                    📞
-                  </div>
-                  <h3 className="text-sm font-semibold text-gray-900 dark:text-white mb-1">Phone</h3>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">
-                    +1 (555) 123-4567<br />
-                    Mon–Fri, 9am–6pm PST
-                  </p>
-                </div>
-
-                <div className="rounded-2xl bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-6">
-                  <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-orange-100 dark:bg-orange-900/50 text-orange-600 dark:text-orange-400 mb-3 text-lg">
-                    💬
-                  </div>
-                  <h3 className="text-sm font-semibold text-gray-900 dark:text-white mb-1">Live Chat</h3>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">
-                    Available 24/7<br />
-                    Avg. response: 2 min
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
