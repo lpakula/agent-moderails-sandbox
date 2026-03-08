@@ -99,7 +99,7 @@ export default function Pricing() {
             Contact our sales team for custom pricing or enterprise solutions.
           </p>
           <a
-            href="#"
+            href="/contact"
             className="inline-block mt-6 text-orange-600 dark:text-orange-400 font-semibold hover:text-orange-700 dark:hover:text-orange-300 transition-colors"
           >
             Get in touch →
