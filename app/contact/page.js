@@ -85,7 +85,7 @@ export default function Contact() {
                 </div>
                 <button
                   type="button"
-                  className="w-full rounded-full bg-orange-600 dark:bg-orange-500 py-3 px-6 text-base font-semibold text-white hover:bg-orange-700 dark:hover:bg-orange-600 transition-colors cursor-default"
+                  className="w-full rounded-full bg-blue-600 dark:bg-blue-500 py-3 px-6 text-base font-semibold text-white hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors cursor-default"
                   disabled
                   aria-label="Submit (mockup - disabled)"
                 >
