@@ -144,7 +144,7 @@ export default function Home() {
               Browse Collection
             </a>
             <a
-              href="#"
+              href="/contact"
               className="text-base font-semibold leading-6 text-white dark:text-gray-100 hover:text-orange-100 dark:hover:text-white transition-colors"
             >
               Contact Us →
