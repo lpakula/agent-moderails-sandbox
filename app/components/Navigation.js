@@ -12,7 +12,7 @@ export default function Navigation() {
     { label: 'Pricing', href: '/pricing' },
     { label: 'Blog', href: '/blog' },
     { label: 'Learn More', href: '/learn-more' },
-    { label: 'Contact', href: '#' },
+    { label: 'Contact', href: '/contact' },
   ]
 
   return (
